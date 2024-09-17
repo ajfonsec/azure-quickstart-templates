@@ -51,7 +51,9 @@
         "name": "[parameters('storageAccountType')]"
       },
       "kind": "StorageV2",
-      "properties": {}
+      "properties": {
+        "allowBlobPublicAccess": false  // Disables public access to blobs
+      }
     }
   ],
   "outputs": {
